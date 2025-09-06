@@ -42,15 +42,15 @@ const actionsArr = [
 // f for rand choice
 
 const randPieceOne = () => {
-   return locationsArr[Math.floor(Math.random()*10)];
+   return locationsArr[Math.floor(Math.random()*locationsArr.length)];
 }
 
 const randPieceTwo = () => {
-   return beingsArr[Math.floor(Math.random()*10)];
+   return beingsArr[Math.floor(Math.random()*beingsArr.length)];
 }
 
 const randPieceThree = () => {
-   return actionsArr[Math.floor(Math.random()*10)];
+   return actionsArr[Math.floor(Math.random()*actionsArr.length)];
 }
 
 // f for final output
